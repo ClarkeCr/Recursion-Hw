@@ -1,0 +1,6 @@
+//Write a recursive C++ function that determines if a string s has more vowels than consonants.
+//s is the string to check, index is the index of the string being processed
+//a positive return value indicates the string has more vowels
+int has_more_vowels(const string &s, const u_long index = -1){
+return 0;
+}
