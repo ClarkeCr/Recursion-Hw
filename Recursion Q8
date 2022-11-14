@@ -1,0 +1,6 @@
+//Write a recursive C++ function that finds the minimum and maximum values in an array of int values without using any loops.
+//a is the input array, minmax is an array of minmax values, size is the size of the input array
+//for this exercise, it's ok to mutate minmax (don't worry about the function design pattern)
+void min_max(const int a[], int minmax[2], const int size){
+
+}
