@@ -1,0 +1,18 @@
+//Write a recursive C++ function that finds the maximum integer in an array of integers.
+//a is then input array, size is the size of the input array
+int max(const int a[], const int size){
+  int maximum = 0;
+  if (size == 1) {
+    maximum = a[0];
+    return maximum;
+  }
+  maximum = max(a, size-1);
+  if (a[size-1] > maximum) {
+    maximum = a[size-1];
+  }
+  return maximum;
+}
+
+int main (){
+  return 0;
+}
