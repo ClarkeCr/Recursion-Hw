@@ -1,0 +1,5 @@
+//Write a recursive C++ function that converts a string of digits into the integer it represents.
+//s is the string to convert, index is the index of the string being processed
+int string_to_int(string &s, const u_long index = -1){
+return 0;
+}
