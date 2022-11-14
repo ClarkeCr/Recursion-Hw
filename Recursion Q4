@@ -1,0 +1,21 @@
+//Write a recursive C++ function that computes the product of two positive integers using only addition and subtraction.
+// n and m such that the product is n*m
+int product(const int n, const int m){
+        if (n > 0 && m < 0) {
+            return product(m, n);
+        }
+        else if (n < 0 && m < 0) {
+            return product((-1 * n), (-1 * m));
+        }
+        if (n > m) {
+            return product(m, n);
+        }
+        else if (m != 0) {
+            return n + product(n, m - 1);
+        }
+        else {
+            return 0;
+  }
+  }
+  
+  
